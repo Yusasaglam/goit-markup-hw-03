@@ -30,6 +30,7 @@ img {
 
 .slman {
     align-items: center;
+    display: flex;
     
 }
 
@@ -87,7 +88,7 @@ li {
     font-style: normal;
 }
 
-.adress ul {
+.ul-adress {
     display: flex;
     gap: 40px;
 }
