@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -5,7 +12,28 @@ body {
 
 }
 
-.webstudio {
+img {
+    display: block;
+}
+
+.one-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.one-header .container {
+    width: 1158px;
+  padding: 0 15px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.slman {
+    align-items: center;
+    
+}
+
+.logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -13,10 +41,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-right: 76px;
 }
 
-.webstudio .web {
+.logo .web {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -25,6 +54,11 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase
+}
+
+.head-ul {
+    display: flex;
+    gap: 40px;
 }
 
 .surfing:hover,
@@ -39,6 +73,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 ul,
@@ -50,6 +85,11 @@ li {
 
 .adress {
     font-style: normal;
+}
+
+.adress ul {
+    display: flex;
+    gap: 40px;
 }
 
 .adrone:hover,
