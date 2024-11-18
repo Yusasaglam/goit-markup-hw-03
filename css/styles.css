@@ -220,10 +220,7 @@ li {
     background-color: white;
 }
 
-.img-threa-title {
-    margin-bottom: 8px;
-    text-align: center;
-}
+
 
 .img-threa-title
  {
@@ -232,6 +229,9 @@ li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+
 }
 
 .img-pgrf {
