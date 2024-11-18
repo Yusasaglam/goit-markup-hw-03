@@ -194,6 +194,10 @@ li {
     color: #2e2f42;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 
 .limg  {
     background-color: white;
