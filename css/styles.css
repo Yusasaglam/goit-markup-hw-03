@@ -146,6 +146,11 @@ li {
     cursor: pointer
 }
 
+.services {
+    padding: 120px 0;
+}
+
+
 
 .threa-title {
     font-weight: 500;
@@ -167,6 +172,16 @@ li {
     background-color: #F4F4FD;
 }
 
+.ourteam-ul {
+    display: flex;
+    gap: 24px;
+
+}
+
+.limg {
+    width: calc((100% - 72px) / 4);
+}
+
 .two-title {
     font-size: 36px;
     line-height: 1.11;
@@ -179,6 +194,10 @@ li {
 
 .limg  {
     background-color: white;
+}
+
+.img-threa-title {
+    margin-bottom: 8px
 }
 
 .img-threa-title
