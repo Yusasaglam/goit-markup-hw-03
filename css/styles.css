@@ -181,7 +181,7 @@ li {
 
 .ourteam-ul {
     display: flex;
-    gap:24px;
+    
     flex-wrap: nowrap;
     column-gap: 24px;
     row-gap: 48px;
