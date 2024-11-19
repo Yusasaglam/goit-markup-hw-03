@@ -23,13 +23,14 @@ img {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 
 }
 
-.slman {
+ .slman {
     align-items: center;
     display: flex;
 
