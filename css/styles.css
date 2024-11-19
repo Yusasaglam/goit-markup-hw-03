@@ -1,375 +1,346 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+img{
+  display:block;
 }
 
-ul {
-    list-style-type: none;
-}
-
-
-body {
-    font-family: "Roboto", sans-serif;
+body{
+    font-family: "Roboto", sans-serif ;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
+}
+.header-about{
+  border-bottom: 1px solid #e7e9fc;
+  
+}
+.header-about
+.container{
+  width: 1158px;
+  padding: 0 15px;
+  display: flex;
+  margin: 0 auto;
+  
+  
+}
+.header-nav{
+  align-items: center;
+  display: flex;
+
+}
+.nav-bar{
+  display: flex;
+  gap:40px;
+}
+.nav-bar-about{
+  display: flex;
+  gap:40px;
+
+}
+.link-li{
+  list-style-type:none;
 
 }
 
-
-img {
-    display: block;
-}
-
-
-
-.one-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.one-header .container {
-    display: flex;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+.link-adres-li{
+  list-style-type:none;
 
 }
-
-.slman {
-    align-items: center;
-    display: flex;
-
-}
-
-.logo {
-    color: #4d5ae5;
+.logo{
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
     text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration:none;
     margin-right: 76px;
+    
 }
-
-.logo .web {
-    color: #2E2F42;
+.logo-span {
     font-family: "Raleway", sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
-    text-transform: uppercase
-}
-
-.head-ul {
-    display: flex;
-    gap: 40px;
-    list-style-type: none;
-    
-}
-
-.surfing:hover,
-.surfing:focus {
-    color: #404bbf;
-}
-
-.surfing {
+    text-transform: uppercase;
     color: #2e2f42;
-    font-size: 16px;
+}
+
+.link{
+    color: #2E2F42;
+    font-family: "Raleway";
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    padding: 24px 0;
-}
-
-
-
-
-
-
-.adress {
-    font-style: normal;
-    
-    
-   
-}
-
-.ul-adress {
-    display: flex;
-    gap: 40px;
     list-style-type: none;
-    
-}
-
-.adrone:hover,
-.adrone:focus {
-    color: #404bbf;
-}
-
-.adrone {
-    font-weight: 400;
+    text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #434455;
-    font-size: 16px;
+    padding: 24px 0;
+  
 }
 
+ .link:hover {
+  font-weight: 500;
+  line-height: 1.5 ;
+  letter-spacing: 0.02em;
+  color: #404bbf ;
+  gap: 40px;
+    display: flex;
+  
+}
+.link:focus {
+  font-weight: 500;
+  line-height: 1.5 ;
+  letter-spacing: 0.02em;
+  color: #404bbf ;
+  gap: 40px;
+    display: flex;
+}
+
+.link-adres {
+    color: #434455 ;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 
+  }
 
-.title {
+  .link-adres:hover {
+    color: #404bbf ;
+  }
+  .link-adres:focus {
+    color: #404bbf;
+  }
+
+  .address-bar{
+    font-style: normal;
+    margin-left: 200px;
+  }
+
+  .section-one {
     background-color: #2E2F42;
     padding: 188px 0;
-}
-
-.one-title {
+  }
+  .section-one-title {
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 700;
+    font-style: normal;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
     max-width: 496px;
     margin:auto;
     display: flex;
     
-}
-
-.onebut:hover,
-.onebut:focus {
-    background-color: #404BBF;
-    cursor: pointer;
-}
-
-.onebut {
-    background-color: #4D5AE5;
+  }
+  .section-one-button {
+    background-color: #4d5ae5;
+    color: #FFFFFF;
+    font-family: inherit;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+    font-style: normal;
     font-size: 16px;
-    display: block;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    display: block;
     margin: 0 auto;
-    
-}
-
-
-
-
-
-
-
-.services {
+  }
+  .section-one-button:hover {
+    background-color: #404BBF;
+  }
+  .section-one-button:focus {
+    background-color: #404BBF;
+  }
+  .section-two{
     padding: 120px 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
-
-.ourteam-ul {
+  }
+  
+  .section-two-ul{
     display: flex;
-    gap:24px;
-    flex-wrap: nowrap;
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 24px;
+    list-style-type: none;
+
+  }
+  .section-two-li{
+   width: calc((100%-72px)/4);
+   flex-basis: calc((100%-72px)/4);
+ }
+ .section-two-title {
+  color: #2E2F42;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
 }
-
-.limg {
-
-    width: calc((100% - 72px)/4);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    background-color: white;
-}
-
-.threa-title {
+    
+  
+  .section-two-mini-title {
+    color: #2E2F42;
+    font-family: inherit;
     font-weight: 500;
+    font-style: normal;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    text-decoration: none;
+    list-style-type: none;
     margin-bottom: 8px;
-}
-
-.pgrf {
+  }
+  .section-two-text {
     color: #434455;
-    line-height: 24px;
+    font-family: inherit;
     font-weight: 400;
-    letter-spacing: 0.02em;
+    font-style: normal;
     font-size: 16px;
-}
-
-
-
-
-
-
-
-
-.ourteam {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .section-three {
     background-color: #F4F4FD;
     padding: 120px 0;
-}
+    list-style-type: none;
+  }
+  .section-three-list {
+    background-color: #FFFFFF;
+    list-style-type: none;
 
-.htwo {
+  }
+  .section-three-container {
     margin-bottom: 72px;
-}
-
-.ourteams-ul {
     display: flex;
-    gap: 24px
-}
-
-.limgs {
-    width: calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.inline {
+    gap: 24px;
+  }
+  .section-three-container-div{
     padding: 32px 0;
-}
 
-.img-threa-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+  }
+  .section-three-title {
+    color: #2E2F42;
+    font-family: inherit;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style-type: none;
     text-align: center;
-}
-
-.img-pgrf {
-    font-weight: 400;
+    margin-bottom: 72px;
+  }
+  .section-three-mini-title {
+    color: #2E2F42;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 8px;
+    
+  }
+  .section-three-mini-text {
+    color: #434455;
+    font-family: inherit;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.ourport {
+  }
+  .section-four-container{
     padding: 120px 0;
-}
-
-.two-title-port {
-    margin-bottom: 72px;
+  }
+ .section-four{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style-type: none;
+ }
+ .section-four-container-div{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+  border-top: none;
+ }
+  .section-four-title {
+    padding: 120px 0;
+    color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
-}
-
-.ourport-ul {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-
-}
-
-.ourport-li {
-    width: calc((100% - 72px)/4);
-}
-
-.lidiv {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
-.threa-title-port {
+    margin-bottom: 72px;
+  }
+  .section-four-mini-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 8px;
-}
-
-.port-pgrf {
-    font-size: 16px;
+  }
+  .section-four-mini-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-}
-
-
-
-
-
-
-
-
-
-.foot {
-    background-color: #2E2F42;
+  }
+  .footer {
+    background-color: #2e2f42;
     padding: 100px 0;
-}
-
-.foot .web {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #F4F4FD;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.foot .webstudio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  }
+  .logo-down-right{
+    color:  #F4F4FD;
     display: inline-block;
-    margin-bottom: 16px
-}
+    margin-bottom: 16px;
+  }
+ .footer-a{
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+ }
 
-
-
-.end-prgrf {
-
-    font-family: Roboto;
-
+  .footer-text {
+    color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
     max-width: 264px;
+    margin-left: 100px;
 }
