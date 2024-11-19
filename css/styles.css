@@ -310,6 +310,10 @@ li {
 
 .foot {
     background-color: #2E2F42;
+    padding: 100px 0;
+
+
+
 }
 
 .foot .web {
@@ -332,6 +336,8 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px
 }
 
 
@@ -343,5 +349,6 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;;
 
 }
