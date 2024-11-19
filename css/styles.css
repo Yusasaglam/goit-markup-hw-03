@@ -182,9 +182,10 @@ li {
 .ourteam-ul {
     display: flex;
     gap:24px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     column-gap: 24px;
     row-gap: 48px;
+   
 
 
 }
@@ -199,8 +200,8 @@ li {
 }
 
 .limg {
-    width: calc((100%-72px)/4);
-    flex-basis: calc((100%-72px)/4);
+    
+    flex-basis:calc((100%-72px)/4);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-top-right-radius: 4px;
@@ -272,10 +273,11 @@ li {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .ourport-li {
-    width:calc((100% - 72px) / 4);
+    width:calc((100% - 72px) / 3);
 
 }
 
