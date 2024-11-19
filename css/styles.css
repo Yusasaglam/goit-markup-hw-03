@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -23,7 +27,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container {
+.one-header .container {
     display: flex;
     width: 1158px;
     padding: 0 15px;
@@ -64,6 +68,7 @@ img {
     display: flex;
     gap: 40px;
     list-style-type: none;
+    
 }
 
 .surfing:hover,
@@ -88,12 +93,16 @@ img {
 
 .adress {
     font-style: normal;
+    
+    
+   
 }
 
 .ul-adress {
     display: flex;
     gap: 40px;
     list-style-type: none;
+    
 }
 
 .adrone:hover,
@@ -124,6 +133,9 @@ img {
     letter-spacing: 0.02em;
     color: white;
     max-width: 496px;
+    margin:auto;
+    display: flex;
+    
 }
 
 .onebut:hover,
@@ -146,7 +158,8 @@ img {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-
+    margin: 0 auto;
+    
 }
 
 
@@ -177,7 +190,6 @@ img {
     flex-wrap: nowrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 
 .limg {
