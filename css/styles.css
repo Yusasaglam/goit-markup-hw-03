@@ -238,6 +238,8 @@ body{
     margin-bottom: 72px;
     display: flex;
     gap: 24px;
+    justify-content: center;
+
   }
   .section-three-container-div{
     padding: 32px 0;
@@ -292,6 +294,7 @@ body{
   column-gap: 24px;
   row-gap: 48px;
   list-style-type: none;
+  justify-content: center;
  }
  .section-four-container-div{
   padding: 32px 16px;
@@ -323,6 +326,7 @@ body{
   .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    
   }
   .logo-down-right{
     color:  #F4F4FD;
@@ -343,5 +347,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-left: 100px;
+    padding-left: 100px;
+    
 }
