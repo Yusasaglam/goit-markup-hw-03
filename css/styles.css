@@ -110,7 +110,9 @@ li {
 
 .title {
     background-color: #2E2F42;
-    padding: 188px 0
+    padding: 188px 0;
+    
+    
 }
 
 .container .one-title {
@@ -120,6 +122,8 @@ li {
     text-align: center;
     color: white;
     max-width: 496px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -172,11 +176,16 @@ li {
 .ourteam {
     background-color: #F4F4FD;
     padding: 120px 0;
+    
 }
 
 .ourteam-ul {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
 
 }
 
@@ -192,7 +201,7 @@ li {
 .limg {
     width: calc((100%-72px)/4);
     flex-basis: calc((100%-72px)/4);
-    (border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
      border-top-right-radius: 0px; 
      border-top-right-radius: 4px;
      border-bottom-left-radius: 4px;
@@ -213,6 +222,7 @@ li {
 
 .visually-hidden {
     visibility: hidden;
+    
 }
 
 
@@ -243,13 +253,35 @@ li {
     text-align: center;
 }
 
+.outport{
+    padding: 120px 0;
+}
+
 .two-title-port {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+}
+.ourport-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.ourport-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.lidiv {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .threa-title-port {
